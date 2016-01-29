@@ -1,0 +1,17 @@
+---
+driver:
+  name: ec2
+  instance_type: m1.small
+  retryable_tries: 120
+
+provisioner:
+  name: chef_zero_scheduled_task
+
+platforms:
+  - name: windows-2012r2
+
+suites:
+  - name: default
+    run_list:
+      - recipe[settings-windows::default]
+    attributes:
