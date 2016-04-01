@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'settings-windows::default' do
+describe 'settings_windows::default' do
   # Serverspec examples can be found at
   # http://serverspec.org/resource_types.html
   it 'does something' do
