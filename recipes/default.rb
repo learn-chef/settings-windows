@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: settings-windows
+# Cookbook Name:: settings_windows
 # Recipe:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.

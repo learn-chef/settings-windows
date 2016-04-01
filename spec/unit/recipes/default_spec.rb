@@ -1,12 +1,12 @@
 #
-# Cookbook Name:: settings-windows
+# Cookbook Name:: settings_windows
 # Spec:: default
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'settings-windows::default' do
+describe 'settings_windows::default' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new
