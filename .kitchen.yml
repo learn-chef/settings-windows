@@ -1,11 +1,9 @@
 ---
 driver:
-  name: ec2
-  instance_type: m1.small
-  retryable_tries: 120
+  name: vagrant
 
 provisioner:
-  name: chef_zero_scheduled_task
+  name: chef_zero
 
 platforms:
   - name: windows-2012r2
